@@ -12,6 +12,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
 import auction from '../../assets/images/auction.PNG';
+import DevIcon from 'devicon-react-svg';
+import IconButton from '@material-ui/core/IconButton';
 
 const useStyles = makeStyles(theme => ({
     container: {
@@ -50,14 +52,20 @@ const useStyles = makeStyles(theme => ({
     expansion: {
         backgroundColor: '#829439',
         color: "white"
+    },
+    skills: {
+        width: "50px",
+       
     }
 }));
 const data = [{
+    repo:"https://github.com/Srijan619/csdewas-project-2-Srijan619",
     website:"https://srijan619.github.io/csdewas-project-2-Srijan619/",
     name: "Stock Porfolio",
     image: stock,
     description: "An easy application to save the stocks and compare its value over different period of time."
 }, {
+    repo:"https://github.com/Srijan619/auction-website-PythonDjango",
     website:"http://chapssrijan.pythonanywhere.com/auction/",
     name: "Auction Website",
     image: auction,
@@ -96,8 +104,11 @@ function Index(props) {
                                             <Divider></Divider>
                                             <br></br>
                                             <Typography variant="body2" component="p" className={classes.paragraph}>
-                                                {items.description}<br></br><Button variant="contained" color="primary" onClick={()=>{window.open(items.website)}}>
+                                                {items.description}<br></br>
+                                                <Button variant="contained" color="primary" onClick={()=>{window.open(items.website)}}>
                                                     Visit</Button>
+                                                    <IconButton>
+                                                    <DevIcon icon="github_badge" className={classes.skills} onClick={()=>{window.open(items.repo)}}></DevIcon></IconButton>
                                                 <br />
                                             </Typography>
                                         </CardContent>
