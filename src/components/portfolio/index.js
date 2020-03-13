@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
@@ -74,7 +73,7 @@ function Index() {
             <span style={{color:"blue"}}>1 Sep 2014 - 1 May 2018 || Bachelors of Science in Information Technology</span>,<p>Centria UAS, Kokkola (Finland)</p>,  
        <span style={{color:"blue"}}>1 Sep 2019 - Present || Masters in Computer Engineering </span>,<p>Åbo Akademi, Turku (Finland)</p>]
   },
-  ,
+  
     {
         title: "Languages",
         description:[
