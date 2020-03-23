@@ -26,14 +26,15 @@ const useStyles = makeStyles(theme => ({
         transform: 'scale(0.8)',
     },
     title: {
-        fontFamily: "'Bebas Neue', cursive",
-        fontSize: 25,
+        fontFamily: "'PT Serif', serif",
+        fontSize: 20,
         fontWeight: 'bold',
-        
+
     },
     paragraph: {
-        fontFamily: "'Gamza Flower', cursive",
-        fontSize: 17,
+        fontFamily:"'PT Serif', serif",
+        wordSpacing:5,
+        fontSize: 16,
     },
     circle: {
         position: 'relative',
@@ -66,6 +67,7 @@ function Index() {
   
     return (
         <div className={classes.container}>
+            
             {data.map((items) => {
                 return (<div>
                     

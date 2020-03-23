@@ -16,16 +16,16 @@ const useStyles = makeStyles(theme => ({
     root: {
         marginBottom: theme.spacing(1)
     },
-  
     title: {
-        fontFamily: "'Bebas Neuef', cursive",
-        fontSize: 25,
+        fontFamily: "'PT Serif', serif",
+        fontSize: 20,
         fontWeight: 'bold',
-        
+
     },
     paragraph: {
-        fontFamily: "'Gamza Flower', cursive",
-        fontSize: 17,
+        fontFamily:"'PT Serif', serif",
+        wordSpacing:5,
+        fontSize: 16,
     },
     skills: {
         width: "50px",

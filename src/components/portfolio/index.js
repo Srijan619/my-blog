@@ -13,23 +13,23 @@ import Divider from '@material-ui/core/Divider';
 const useStyles = makeStyles(theme => ({
     container: {
         padding: theme.spacing(1),
-
     },
     root: {
         width:'100%',
         height:'fit-content',
- 
         margin: theme.spacing(1),
     },
+    
     title: {
-        fontFamily: "'Bebas Neuef', cursive",
-        fontSize: 25,
+        fontFamily: "'PT Serif', serif",
+        fontSize: 20,
         fontWeight: 'bold',
 
     },
     paragraph: {
-        fontFamily: "'Gamza Flower', cursive",
-        fontSize: 17,
+        fontFamily:"'PT Serif', serif",
+        wordSpacing:5,
+        fontSize: 16,
     },
     expand:{
         display:'flex',
@@ -38,8 +38,8 @@ const useStyles = makeStyles(theme => ({
         width:'100%'
     },
     expansion:{
-        backgroundColor:'#3D9439',
-        color:"white"
+        backgroundColor:'#f5f5f5',
+        color:"Black"
     }
 }));
 
@@ -52,11 +52,11 @@ function Index() {
             description:[
                 <span style={{color:"blue"}}>Name: </span>,<p style={{ color: "#C70039" }}>Srijan Chapagain</p>,
                 <span style={{color:"blue"}}>Address: </span>,<p>Yo-Kylä 6 d 12, 20540 Turku, Finland</p>,
-           <span style={{color:"blue"}}>Phone-Number: </span>,<p>+358-4578770641</p>,
-            <span style={{color:"blue"}}>Email: </span>,<p>chapssrijan@gmail.com</p>,
-            <span style={{color:"blue"}}>Sex: </span>,<p>Male</p>,
-            <span style={{color:"blue"}}>Date Of Birth:</span>,<p>10 April 1996</p>,
-            <span style={{color:"blue"}}>Nationality:</span>,<p>Nepalese</p>]
+               <span style={{color:"blue"}}>Phone-Number: </span>,<p>+358-4578770641</p>,
+                <span style={{color:"blue"}}>Email: </span>,<p>chapssrijan@gmail.com</p>,
+                <span style={{color:"blue"}}>Sex: </span>,<p>Male</p>,
+                <span style={{color:"blue"}}>Date Of Birth:</span>,<p>10 April 1996</p>,
+                <span style={{color:"blue"}}>Nationality:</span>,<p>Nepalese</p>]
       }
       ,
       {
@@ -105,7 +105,7 @@ function Index() {
                             </Typography>
                           <Divider></Divider>
                           <br></br>
-                            <Typography variant="body2" component="p" className={classes.paragraph}>
+                            <Typography className={classes.paragraph}>
                                 {items.description}
 
                             </Typography>

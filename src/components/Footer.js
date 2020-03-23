@@ -3,23 +3,25 @@ import React from 'react';
 
 const useStyles = makeStyles(theme => ({
   root:{
-   
-    left: '0',
-    bottom: '0',
+    left: 0,
+    bottom: 0,
     width: '100%',
     textAlign: 'center',
-    backgroundColor:"white"
+    background:'transparent',
+    color:'white',
+    fontWeight:'bold',
+    fontSize:'25'
   }
 
 }));
 
-const Header = () => {
+const Footer = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <p>©Copyright 2020 by Srijan Chapagain</p>
+      <span>©Copyright 2020 by Srijan Chapagain</span>
     </div>
   );
 };
 
-export default Header;
+export default Footer;

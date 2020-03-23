@@ -19,11 +19,12 @@ const useStyles = makeStyles(theme => ({
     container: {
         padding: theme.spacing(1),
         width: 'fit-content',
-        paddingBottom:theme.spacing(2)
+        paddingBottom:theme.spacing(2),
+        positon:'relative'
     },
     root: {
         width: "300px",
-        height: 'fit-content'
+        height: '400px'
     },
     bullet: {
         display: 'inline-block',
@@ -31,17 +32,17 @@ const useStyles = makeStyles(theme => ({
         transform: 'scale(0.8)',
     },
     title: {
-        fontFamily: "'Bebas Neuef', cursive",
-        fontSize: 25,
+        fontFamily: "'PT Serif', serif",
+        fontSize: 20,
         fontWeight: 'bold',
 
     },
     paragraph: {
-        fontFamily: "'Gamza Flower', cursive",
-        fontSize: 17,
+        fontFamily:"'PT Serif', serif",
+        wordSpacing:5,
+        fontSize: 16,
     },
     media: {
-        height: 0,
         paddingTop: '56.21%',
     },
     expand: {
@@ -50,12 +51,15 @@ const useStyles = makeStyles(theme => ({
         flexDirection: 'row',
     },
     expansion: {
-        backgroundColor: '#829439',
-        color: "white"
+        backgroundColor: '#f5f5f5',
+        color: "Black"
     },
     skills: {
         width: "50px",
-       
+    },
+    buttons:{
+        position:'sticky',
+        bottom:'15px',
     }
 }));
 const data = [{
@@ -103,14 +107,17 @@ function Index(props) {
                                             />
                                             <Divider></Divider>
                                             <br></br>
-                                            <Typography variant="body2" component="p" className={classes.paragraph}>
-                                                {items.description}<br></br>
+                                        
+                                            <Typography className={classes.paragraph}>
+                                                {items.description} </Typography><br></br>
+                                                <div className={classes.buttons}>
                                                 <Button variant="contained" color="primary" onClick={()=>{window.open(items.website)}}>
                                                     Visit</Button>
                                                     <IconButton>
                                                     <DevIcon icon="github_badge" className={classes.skills} onClick={()=>{window.open(items.repo)}}></DevIcon></IconButton>
                                                 <br />
-                                            </Typography>
+                                                </div>
+                                           
                                         </CardContent>
 
                                     </Card>
