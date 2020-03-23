@@ -13,7 +13,7 @@ function App() {
       <Router history={History}>
         <Switch>
           <Route path="/my-blog" exact component={Home}/>
-          <Route path="/Blogs" component={BlogAll}/>
+          <Route path="/my-blogs/Blogs" component={BlogAll}/>
         </Switch>
       </Router>
    
