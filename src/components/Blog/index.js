@@ -124,7 +124,7 @@ class index extends Component {
                                         <IconButton >
 
                                             <MoreIcon />
-                                            <Link to='/Blogs' target="_blank" style={{ textDecoration: 'none' }}>
+                                            <Link to='/my-blogs/Blogs' target="_blank" style={{ textDecoration: 'none' }}>
                                                 <Typography className={classes.footNote} style={{ paddingLeft: 5 }} >See all posts</Typography>
                                             </Link>
                                         </IconButton>
