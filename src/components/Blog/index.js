@@ -89,6 +89,7 @@ class index extends Component {
     render() {
         const { classes } = this.props;
         const { blogData } = this.state;
+        console.log(blogData)
         return (
             <div className={classes.container}>
                 <ExpansionPanel className={classes.expansion} >
@@ -124,7 +125,7 @@ class index extends Component {
                                         <IconButton >
 
                                             <MoreIcon />
-                                            <Link to='/my-blogs/Blogs' target="_blank" style={{ textDecoration: 'none' }}>
+                                            <Link to='/my-blog/Blogs' target="_blank" style={{ textDecoration: 'none' }}>
                                                 <Typography className={classes.footNote} style={{ paddingLeft: 5 }} >See all posts</Typography>
                                             </Link>
                                         </IconButton>
