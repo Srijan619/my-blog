@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "id":1,
+    "name": "Srijan Chapagain",
+    "label": "",
+    "picture": "",
+    "email": "chapssrijan@gmail.com",
+    "phone": "+358-4578770641",
+    "website": "https://srijan619.github.io/my-blog/",
+    "linkedin":"https://www.linkedin.com/in/ srijan-chapagain-b18b5ab7/",
+    "github":"https://github.com/Srijan619?tab=rep ositories",
+    "transcript":"https://studyinfo.fi/koski/opinnot/f43b92c7652d497d9e8cd736191921ee",
+    "summary": "An enthusiastic programmer willing to learn and progress more in IT.",
+    "location": {
+      "address": "Yo Kylä",
+      "postalCode": "20540",
+      "city": "Turku",
+      "countryCode": "Finland",
+      "region": "Your region (state in the U.S.)"
+    }
+  },
+  "work": [
+    {
+      "id":1,
+      "company": "KP Jakelu",
+      "location":"Kokkola, Finland",
+      "position": "Deliverer",
+      "website": "",
+      "startDate": "1 Feb 2015",
+      "endDate": "1 Sep 2018",
+      "highlights": [
+        "Delivering Newspapers"
+      ]
+    },{
+      "id":2,
+        "company": "Centria UAS",
+        "location":"Kokkola, Finland",
+      "position": "Game Development Internship",
+      "website": "",
+      "startDate": "1 May 2015",
+      "endDate": "15 Aug 2015",
+      "highlights": [
+        "Game Project Workshop","Familiarizing with the Unity Platform","Developing a commercial game"
+      ]
+    }
+    ,{
+      "id":3,
+        "company": "Åbo Akademi",
+        "location":"Turku, Finland",
+      "position": "Research Assistant (Thesis Work)",
+      "website": "",
+      "startDate": "19 Nov 2020",
+      "endDate": "31 Aug 2021",
+      "highlights": [
+        "Thesis work in VeriDevOps Project","Fixing security issues in DevOps "
+      ]
+    }
+    ,{
+      "id":4,
+        "company": "Åbo Akademi",
+        "location":"Turku, Finland",
+      "position": "Teaching Assistant In Web Technologies And Project Course",
+      "website": "",
+      "startDate": "19 Sep 2020",
+      "endDate": "31 Feb 2021",
+      "highlights": [
+        "Assisting students with hands on to help do the project","Taking an assistive lecture","Building prototype of the final full stack application","Grading the project "
+      ]
+    }
+   
+  ],
+  "education": [
+    {
+      "id":1,
+      "institution": "Centria University of Applied Science",
+      "area": "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+      "location":"Kokkola, Finland",
+      "startDate": "1 Sep 2014",
+      "endDate": "1 May 2018",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "id":2,
+        "institution": "Åbo Akademi",
+        "area": "MASTER’S DEGREE IN COMPUTER ENGINEERING ",
+        "location":"Turku, Finland",
+        "startDate": "1 Sep 2019",
+        "endDate": "Present",
+        "gpa": "",
+        "courses": [
+          "Major in Web Development"
+        ]
+      }
+
+  ],
+  "skills": [
+    {
+      "software": ["QT (Multi-Platform App Development)",
+                    "Android Studio (Native Android Mobile App Development)",
+                    "Cordova with JS (Hybrid Web – App Development)",
+                    "Unity 3D and Vuforia Augmented Reality (Game and Cross Platform App Development)",
+                    "Git and GitHub",
+                    "JavaScript and JS Frameworks (ReactJS, React Native",
+                    "HTTP & REST API",
+                    "Amazon Web Service",
+                    "Database Technology (MySQL, MongoDB)"
+],
+      "backend": ["Java","NodeJS","C++","C#","Vb.net","Python","Asp.net"],
+      "frontend":["HTML","CSS","JavaScript"],
+      "softskills": [
+        "Analytical Thinking",
+        "Good Time Management Skills",
+        "Project Management Abilities",
+        "Good Communication Skills",
+        "Collaboration And Teamwork Abilities",
+        "Attention To Details"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Finnish",
+      "fluency": "Intermediate"
+    },
+    {
+        "language": "Nepali",
+        "fluency": "Native"
+      }
+      ,  {
+        "language": "English",
+        "fluency": "Professional Proficiency"
+      }
+  ],
+  "interests": [
+    {
+      "name": "A category of interests (e.g. 'Sports')",
+      "keywords": [
+        "Keywords under this category (e.g. 'Cricket', 'Football', 'Golf')"
+      ]
+    }
+  ]
+}

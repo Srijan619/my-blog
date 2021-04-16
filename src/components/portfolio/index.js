@@ -65,7 +65,12 @@ function Index() {
               <span style={{color:"blue"}}>1 Feb 2016 - 1 Sep 2018 || Deliverer</span>,<p>KP Jakelu Oy, Kokkola (Finland)</p>,<p>-Newspaper Delivery</p>,
          
               <span style={{color:"blue"}}>1 May 2015 - 15 Aug 2015 || Game Development Internship </span>,<p>Centria UAS, Kokkola (Finland)</p>,<p>-Game project workshop</p>,<p>-Familiarizing with Unity3D platform</p>,<p>-Developing a commercial game</p>,
-         <span style={{color:"blue"}}>19 Nov 2018 - 31 Aug 2019 || Building Construction Worker </span>,<p>Vikstrom Plåtslageri, Pietarsaari (Finland)</p>,<p>-Plates installation</p>]
+         <span style={{color:"blue"}}>19 Nov 2018 - 31 Aug 2019 || Building Construction Worker </span>,<p>Vikstrom Plåtslageri, Pietarsaari (Finland)</p>,<p>-Plates installation</p>,
+        <span style={{color:"blue"}}>Sep 2020 - Feb 2021 || Teaching Assistant</span>, <p>Åbo Akademi, Turku (Finland)</p>, <p>- Teaching Assistant for Project Course and Web Apps</p>, 
+            <p>- Helping students find groups and a suitable project.</p>,<p>- Helping with the assignments and documenations.</p>,<p>- Help evaluate the students' task to ease the teacher's work.</p>,
+            <span style={{color:"blue"}}>Nov 2020 - Present || Master Thesis Student</span>, <p>VeriDevOps Project, Åbo Akademi, Turku (Finland)</p>, <p>- Exploiting REST API with SBST</p>, 
+              
+        ]
     },
     {
         title: "Education",

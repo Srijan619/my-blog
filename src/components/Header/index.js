@@ -1,28 +1,27 @@
 import { makeStyles } from '@material-ui/core/styles';
 import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
-
+import BookIcon from '@material-ui/icons/Book';
 
 
 const useStyles = makeStyles(theme => ({
   root: {
-      margin: theme.spacing(1),
-      position: 'relative',
+    margin: theme.spacing(1),
+    position: 'relative',
     padding: '10px',
     float: 'right',
     width: '300px',
     height: '150px',
-    transform: 'rotate(50deg)',
     border: 'solid 5px #000',
     borderColor: 'transparent transparent #000 transparent',
     borderRadius: '0 0 240px 50%/60px',
     display:'flex',
     flexDirection:'row',
-    justifyContent:'space-between'
+    justifyContent:'space-between',
+
    
   },
   containerNav: {
@@ -66,7 +65,7 @@ const Header = () => {
     <div className={classes.root}>
       <div >
         <div className={classes.containerNav}>
-          <FacebookIcon className={classes.hoverItem} onClick={()=>{window.open("https://www.facebook.com/shreezan.anisopter")}}  />
+          <BookIcon className={classes.hoverItem} onClick={()=>{window.open("https://srijan619.github.io/my-blog/#/")}}  />
           <GitHubIcon className={classes.hoverItem} onClick={()=>{window.open("https://github.com/Srijan619")}}/>
           <TwitterIcon className={classes.hoverItem} onClick={()=>{window.open("https://twitter.com/chaps_srijan")}}  />
           <EmailIcon className={classes.hoverItem}   onClick={()=>{window.open("mailto:chapssrijan@gmail.com")}} />
