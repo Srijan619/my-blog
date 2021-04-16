@@ -14,7 +14,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import IconButton from '@material-ui/core/IconButton';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
-import { Icon } from '@material-ui/core';
+
 const useStyles = makeStyles(theme => ({
    
     root: {

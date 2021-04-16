@@ -13,10 +13,10 @@ import Skills from './skills'
 import Education from './education'
 const Index = () => {
     const values = [
-        { id: 1, text: "Work", path: "/work" },
-        { id: 2, text: "Education", path: "/education" },
-        { id: 3, text: "Skills", path: "/skills" },
-        { id: 4, text: "Projects", path: "/projects" }
+        { id: 1, text: "Work", path: "/my-blog/work" },
+        { id: 2, text: "Education", path: "/my-blog/education" },
+        { id: 3, text: "Skills", path: "/my-blog/skills" },
+        { id: 4, text: "Projects", path: "/my-blog/projects" }
     ];
     const [activeId, setActiveId] = useState();
 
@@ -42,11 +42,11 @@ const Index = () => {
                     </ul>
                     <div className="contentContainer">
                         <Switch>
-                            <Route path="/" exact component={Work} />
-                            <Route path="/projects" component={Projects} />
-                            <Route path="/work" component={Work} />
-                            <Route path="/education" component={Education} />
-                            <Route path="/skills" component={Skills} />
+                            <Route path="/my-blog" exact component={Work} />
+                            <Route path="/my-blog/projects" component={Projects} />
+                            <Route path="/my-blog/work" component={Work} />
+                            <Route path="/my-blog/education" component={Education} />
+                            <Route path="/my-blog/skills" component={Skills} />
                         </Switch>
 
 
