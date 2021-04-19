@@ -11,6 +11,7 @@ import cv from '../../assets/cv.json'
 import Work from './work'
 import Skills from './skills'
 import Education from './education'
+import Footer from '../Footer'
 const Index = () => {
     const values = [
         { id: 1, text: "Work", path: "/my-blog/work" },
@@ -52,7 +53,7 @@ const Index = () => {
 
                     </div>
 
-
+                    <Footer></Footer>
 
                 </div>
 
