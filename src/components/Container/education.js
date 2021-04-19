@@ -9,6 +9,7 @@ const education = () => {
                 return (
                     <div className="content" key={i}>
                         <li>{data.area}</li>
+                        <li className="items">{data.startDate} - {data.endDate}</li>
                         <li className="items">{data.institution}, {data.location}</li>
                         {data.courses.map(items => {
                             return (

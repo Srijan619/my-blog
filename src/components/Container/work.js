@@ -12,6 +12,7 @@ const work = () => {
                     
                             <li>{data.company}, {data.location}</li>
                             <li>{data.position}</li>
+                            <li className="items">{data.startDate} - {data.endDate}</li>
                             {data.highlights.map((items,i) => {
                                 return (
                                     <ul key={i}>
