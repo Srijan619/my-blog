@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my-blog/static/css/main.0b488364.chunk.css",
-    "main.js": "/my-blog/static/js/main.e6e28589.chunk.js",
+    "main.js": "/my-blog/static/js/main.df1d23a4.chunk.js",
     "runtime-main.js": "/my-blog/static/js/runtime-main.cf125f2f.js",
     "static/css/2.75528cd1.chunk.css": "/my-blog/static/css/2.75528cd1.chunk.css",
     "static/js/2.21f46cbe.chunk.js": "/my-blog/static/js/2.21f46cbe.chunk.js",
     "index.html": "/my-blog/index.html",
-    "precache-manifest.d3348a367134aab27df684a469c24304.js": "/my-blog/precache-manifest.d3348a367134aab27df684a469c24304.js",
+    "precache-manifest.b5d4e282927e80a3bb59eb4349a7692c.js": "/my-blog/precache-manifest.b5d4e282927e80a3bb59eb4349a7692c.js",
     "service-worker.js": "/my-blog/service-worker.js",
     "static/js/2.21f46cbe.chunk.js.LICENSE.txt": "/my-blog/static/js/2.21f46cbe.chunk.js.LICENSE.txt",
     "static/media/auction.PNG": "/my-blog/static/media/auction.fd7a55fd.PNG",
@@ -20,6 +20,6 @@
     "static/css/2.75528cd1.chunk.css",
     "static/js/2.21f46cbe.chunk.js",
     "static/css/main.0b488364.chunk.css",
-    "static/js/main.e6e28589.chunk.js"
+    "static/js/main.df1d23a4.chunk.js"
   ]
 }
