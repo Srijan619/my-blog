@@ -10,7 +10,7 @@ function App() {
   return (
     <div >
           <Route path="/" exact  component={Home}/>
-          <Route path="/Blogs" component={BlogAll}/>
+          {/* <Route path="/Blogs" component={BlogAll}/> */}
     </div>
   );
 }
